@@ -1,0 +1,442 @@
+body{
+    margin: 0px;
+    background-color:#202125;
+}
+
+header{
+    position:relative;
+}
+table{
+    padding-left:175px;
+    padding-top: 50px;
+}
+td {
+    color: white;
+    font-family:Montserrat, Aria;
+    font-size:14px;
+    line-height: 60px;
+    text-align: left;
+    letter-spacing: 1px;
+
+}
+td:hover{
+    color:#9f102a;
+}
+.search{
+    margin-top:0px;
+    width: 100%;
+    height: 457px;
+    background-image: url(01.jpg);
+   background-size: cover;
+}
+.search img {
+    margin-top: -369px;
+    float: right;
+    margin-right: 110px;
+    height: 826px;
+    width: 600px;
+}
+.logo{
+    position: absolute;
+  
+}
+.logo img {
+    width: 200px;
+    height: 60px;
+    margin-top: 56px;
+    margin-left: 202px;
+}
+.searchbar{
+    width: 560px;
+    height:50px;
+    border-radius: 100px;
+    color: #495057;
+    font-family: Montserrat, Aria;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 197px;
+    margin-top: 153px;
+    border: 0px;
+
+}
+.searchicon img{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 770px;
+    margin-top: -48px;
+
+    
+}
+.top{
+    margin-top: 38px;
+    margin-left: 30px;
+}
+.top label{
+    position: relative;
+    color: white;
+    font-family: Montserrat,Aria;
+    text-align: start;
+    letter-spacing: normal;
+    font-size: 11px;
+    line-height: 19.6px;
+    margin-top: 50px;
+    margin-left: 197px;
+}
+strong{
+    color:red;
+}
+.fullpage{
+    background-color:#9f102a;
+    border: 0px;
+    border-radius: 0px 0px 50px 50px;
+    margin-left: 197px;
+    margin-right: 197px;
+    margin-top:0px;
+    height:60px;
+    padding-top: 5px;
+}
+.fullpage a{
+    margin-top:-7px;
+    margin-left:470px;
+    color: white;
+    font-family: Montserrat,Aria;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+}
+.fullpage img{
+    margin-top: -7px;
+    margin-left:10px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+.social{
+    
+    padding-top: 5px;
+    padding-top: 5px;
+    padding-right: 50px;
+    margin-right: 197px;
+    margin-left: 197px;
+    margin-bottom: 20px;
+    margin-top:20px;
+    height: 50px;
+    border: 0px;
+    border-radius:5px;
+    background-color: #121315;
+}
+.facebook{
+    position: absolute;
+    margin-left:150px;
+    margin-top:2px;
+    height: 40px;
+    width:140px;
+    border: 0px;
+    border-radius:15px;
+    background-color: #0080ff;
+
+}
+.facebook img{
+    position: absolute;
+    margin-top: 1px;
+    height: 35px;
+    width: 35px; 
+}
+.facebook h5{
+    position: absolute;
+    color: aliceblue;
+    margin-top:12px;
+    margin-left:80px;
+    font-size: small;
+    font-family: Montserrat,Aria;
+    line-height:15px;
+
+}
+.Telegram{
+    position: absolute;
+    margin-left:300px;
+    margin-top:2px;
+    height: 40px;
+    width:140px;
+    border: 0px;
+    border-radius:15px;
+    background-color: #015cb8;
+
+}
+.Telegram img{
+    position: absolute;
+    margin-top: 1px;
+    height: 35px;
+    width: 35px; 
+}
+.Telegram h5{
+    position: absolute;
+    color: aliceblue;
+    margin-top:12px;
+    margin-left:65px;
+    font-size: small;
+    font-family: Montserrat,Aria;
+    line-height:15px;
+
+}
+.Telegram:hover{
+    transform: scale(1.1);
+}
+.facebook:hover{
+    transform: scale(1.1);
+}
+.reddit:hover{
+    transform: scale(1.1);
+}
+.Twitter:hover{
+    transform: scale(1.1);
+}
+.reddit{
+    position: absolute;
+    margin-left:450px;
+    margin-top:2px;
+    height: 40px;
+    width:140px;
+    border: 0px;
+    border-radius:15px;
+    background-color: #ff5500;
+
+}
+.reddit img{
+    position: absolute;
+    margin-top: 1px;
+    height: 35px;
+    width: 35px; 
+}
+.reddit h5{
+    position: absolute;
+    color: aliceblue;
+    margin-top:12px;
+    margin-left:80px;
+    font-size: small;
+    font-family: Montserrat,Aria;
+    line-height:15px;
+
+}
+.Twitter{
+    position:absolute;
+    margin-left:600px;
+    margin-top:2px;
+    height: 40px;
+    width:140px;
+    border: 0px;
+    border-radius:15px;
+    background-color: #006eff;
+
+}
+.Twitter img{
+    position: absolute;
+    margin-top: 1px;
+    height: 35px;
+    width: 35px; 
+}
+.Twitter h5{
+    position: absolute;
+    color: aliceblue;
+    margin-top:12px;
+    margin-left:60px;
+    font-size: small;
+    font-family: Montserrat,Aria;
+    line-height:15px;
+
+}
+.line{
+    position:absolute;
+    margin-top: 1.5px;
+    background-color: #9f102a;
+    border: 0PX;
+    border-radius: 5PX;
+    width: 5px;
+    height:40px;
+    margin-left:10px;
+}
+.share{
+    margin-top: .5px;
+    position: absolute;
+    color: white;
+    font-family: Montserrat,Aria;
+
+}
+.share h5{
+    color: #d41437;
+    margin-top: 1.5px;
+    margin-left:30px;
+}
+.share h6{
+    font-weight: lighter;
+    margin-top: -13px;
+    margin-left:30px;
+}
+.feeds_and_trends{
+    
+    position: relative;
+    margin-top: 5px;
+    margin-right: 197px;
+    margin-left: 197px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.feeds{
+    position:absolute;
+    margin-top: 5px;
+    width: 60%;
+    
+    text-align: left;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: #202125;
+    color: aliceblue;
+    font-family: Montserrat,Aria;
+    font-size: smaller;
+    font-weight: lighter;
+    line-height:19px;
+
+}
+.feeds strong{
+    color: white;
+    font-family: Montserrat,Aria;
+
+
+
+}
+.trends{
+    
+    float: right;
+    border: 0px;
+    width:35%;
+    height: auto;
+}
+.trends h2{
+    color: white;
+    font-family: Montserrat,Aria;
+}
+.column1{
+    padding-top: 5px;
+    padding-left:15px;
+    margin-top: 25px;
+    border:0px;
+    background-color:#343434;
+    height:175px;
+    border-radius: 30px;
+    font-family: Montserrat,Aria;
+}
+.column1 h5{
+    position: absolute;
+    color:rgb(186, 186, 186);
+    font-weight: normal;
+    
+}
+.column1 h6{
+    color:rgb(186, 186, 186);
+    font-weight: normal;
+    margin-left: 100px;
+    font-size: normal;
+}
+.msg{
+   
+    color: white;
+    font-size: large;
+}
+.msg h5{
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+    font-size: small
+    ;
+}
+.column1 img{
+    margin-top:40px;
+    width:30px;
+    height:30px;
+}
+.accname h6{
+    margin-top: -20px;
+    color:rgb(186, 186, 186);
+    font-weight: normal;
+    margin-left: 100px;
+    font-size: normal;
+    
+
+ }
+ .column2{
+    padding-top: 5px;
+    padding-left:15px;
+    margin-top: 25px;
+    border:0px;
+    background-color:#343434;
+    height:175px;
+    border-radius: 30px;
+    font-family: Montserrat,Aria;
+}
+.column2 h5{
+    position: absolute;
+    color:rgb(186, 186, 186);
+    font-weight: normal;
+    
+}
+.column2 h6{
+    color:rgb(186, 186, 186);
+    font-weight: normal;
+    margin-left: 100px;
+    font-size: normal;
+}
+.msg{
+   
+    color: white;
+    font-size: large;
+}
+.msg h5{
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+    font-size: small
+    ;
+}
+.column2 img{
+    margin-top:40px;
+    width:30px;
+    height:30px;
+}
+.accname h6{
+    margin-top: -20px;
+    color:rgb(186, 186, 186);
+    font-weight: normal;
+    margin-left: 40px;
+    font-size: normal;
+    
+
+ }
+ .column3{
+     padding-top: 7px;
+    padding-left:15px;
+    margin-top: 25px;
+    border:0px;
+    background-color:#343434;
+    height:30px;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    font-family: Montserrat,Aria;
+}
+.column3 h5{
+    margin-top: 3px;
+    font-size: small;
+    font-weight: lighter;
+}
+.footer{
+    margin-top: 100px;
+    color: rgb(164, 164, 164);
+    font-family: Montserrat,Aria;
+    font-weight: lighter;
+    font-size: 13px;
+    line-height: 19.6px;
+
+}
